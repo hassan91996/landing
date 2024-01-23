@@ -3,11 +3,10 @@
     overflow: hidden;
     /* min-height: 1000px; */
 }
-
 .services-con h1 {
     color: var(--main-color);
     font-family: "DINN";
-    font-size: 120px;
+    font-size: 50px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -64,7 +63,7 @@
 .service-con p {
     color: #575757;
     font-family: "DINN";
-    font-size: 30px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;

@@ -1,5 +1,5 @@
 .navbar {
-    background: #F4F4F2;
+    background: transparent;
 }
 .navbar-brand img {
     width: 85.359px;
@@ -57,4 +57,9 @@
 .navbar .Contact-link:active,
 .navbar .Contact-link.active {
     background-color: #FFC100;
+}
+@media (max-width:992px){
+    .navbar {
+        background-color: #fff !important;
+    } 
 }

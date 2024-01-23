@@ -1,9 +1,7 @@
 .home {
-
     min-height: calc(100vh - 100px);
     position: relative;
-    overflow: hidden;
-
+    margin-top: 100px;
 }
 
 .home .home-bg {
@@ -21,6 +19,7 @@
     align-items: center;
     flex-shrink: 0;
     opacity: 0.6;
+    z-index: -1;
 }
 
 .home-content {
@@ -28,15 +27,25 @@
 }
 
 .home-content .home-logo {
-    width: 427.119px;
-    height: 400.395px;
+    width: 266.646px;
+    height: 199.395px;
+}
+
+.home-content h3 {
+    color: var(--main-color);
+    text-align: center;
+    font-family: "DINN";
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 
 .home-content p {
-    color:  #575757;
+    color: #575757;
     text-align: center;
     font-family: "DINN";
-    font-size: 30px;
+    font-size: 25px;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
