@@ -1,0 +1,49 @@
+.home {
+
+    min-height: calc(100vh - 100px);
+    position: relative;
+    overflow: hidden;
+
+}
+
+.home .home-bg {
+    position: absolute;
+    top: -650px;
+    background-image: url(../../assets/Home/home-bg.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 2276.39px;
+    height: 2157.679px;
+    transform: rotate(-39.354deg);
+    padding: 0.017px 0px 0.032px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    opacity: 0.6;
+}
+
+.home-content {
+    position: relative;
+}
+
+.home-content .home-logo {
+    width: 427.119px;
+    height: 400.395px;
+}
+
+.home-content p {
+    color:  #575757;
+    text-align: center;
+    font-family: "DINN";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media (max-width:768px) {
+    .home-content p {
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,86 @@
+.services-con {
+    position: relative;
+    overflow: hidden;
+    /* min-height: 1000px; */
+}
+
+.services-con h1 {
+    color: var(--main-color);
+    font-family: "DINN";
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.services-con .top-img {
+    position: absolute;
+    right: 0px;
+    right: -150px;
+    top: 0px;
+    width: 45%;
+    max-width: 45%;
+    height: 60%;
+    min-height: 60%;
+    z-index: -1;
+    transform: rotate(331deg);
+}
+
+.services-con .bottom-img {
+    position: absolute;
+    right: -50px;
+    bottom: 100px;
+    width: 45%;
+    max-width: 45%;
+    height: 40%;
+    min-height: 40%;
+    z-index: -1;
+}
+
+.services-con .bottom-img img,
+.services-con .top-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.service-con .service-header {
+    width: 90%;
+    border-radius: 10px;
+    border: 3px solid var(--main-color);
+    background: #F4F4F2;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    color: var(--InBots-Cyan, #009DFF);
+    text-align: center;
+    font-family: "DINN";
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.service-con p {
+    color: #575757;
+    font-family: "DINN";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+@media (max-width:992px) {
+    .services-con h1 {
+        font-size: 60px;
+    }
+
+    .service-con .service-header {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .service-con p {
+        font-size: 20px;
+    }
+}

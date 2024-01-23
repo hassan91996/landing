@@ -1,0 +1,38 @@
+.about-con {
+    background-image: url(../../assets/aboutus/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 119% 100%;
+    height: 800px;
+}
+
+.about-con h1 {
+    color: var(--main-color);
+    font-family: "DINN";
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-con h4 {
+    color: #575757;
+    font-family: "DINN";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+@media (max-width:992px) {
+    .about-con {
+        background-size: cover; 
+        height: auto;
+    }
+}
+@media (max-width:768px) {
+    .about-con h1 {
+        font-size: 60px;
+    } 
+    .about-con h4 {
+        font-size: 24px;
+    } 
+}
