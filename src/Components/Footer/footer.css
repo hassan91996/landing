@@ -16,6 +16,7 @@
     align-items: center;
     flex-shrink: 0;
     opacity: 0.6;
+    z-index: -1;
 }
 .Footer .footer-top-border {
     width: 100%;

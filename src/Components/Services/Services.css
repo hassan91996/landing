@@ -14,15 +14,17 @@
 
 .services-con .top-img {
     position: absolute;
+    display: flex;
+    justify-content:flex-end;
     right: 0px;
-    right: -150px;
+    right: 0px;
     top: 0px;
     width: 45%;
     max-width: 45%;
     height: 60%;
     min-height: 60%;
     z-index: -1;
-    transform: rotate(331deg);
+    /* transform: rotate(331deg); */
 }
 
 .services-con .bottom-img {
@@ -54,7 +56,7 @@
     color: var(--InBots-Cyan, #009DFF);
     text-align: center;
     font-family: "DINN";
-    font-size: 38px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;

@@ -79,6 +79,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    resize: none;
 }
 
 .contact-con .contact-form .input-group ::placeholder {
@@ -150,4 +151,24 @@
     font-weight: 700;
     line-height: normal;
 
+}
+
+.sccessModal .modal-content {
+    padding: 20px;
+}
+
+.sccessModal .modal-content span {
+    color: #6caa6c;
+}
+.sccessModal .modal-content span.err {
+    color: #ff4646;
+}
+
+.sccessModal .modal-content h1 {
+
+    color: #202020;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
