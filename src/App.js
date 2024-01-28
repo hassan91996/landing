@@ -1,6 +1,5 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'animate.css/animate.css';
 import Header from './Components/Header/header';
 import Footer from './Components/Footer/footer';
 import { useEffect } from 'react';
